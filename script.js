@@ -42,7 +42,7 @@ fileInput.addEventListener("change", function (event) {
       }
     } else {
       fileInfo.innerHTML =
-        "Archivo no válido. Por favor, sube un archivo JPG o PNG de máximo 5MB.";
+        "Archivo no válido. Por favor, sube un archivo JPG o PNG de máximo 10MB.";
       preview.style.display = "none";
     }
   } else {
