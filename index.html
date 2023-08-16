@@ -10,9 +10,13 @@
 
 <body>
     <input type="file" id="fileInput">
+    <button id="uploadButton">Subir</button>
     <div id="fileInfo"></div>
-    <img id="preview">
+    <img id="preview" style="display: none; max-width: 100%;" alt="Vista previa de la imagen">
+    <progress id="progressBar" value="0" max="100" style="display: none;"></progress>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
 </body>
 
