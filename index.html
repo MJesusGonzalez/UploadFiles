@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SubirArchivos v1</title>
+    <title>SubirArchivos v2</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <form action='http://localhost:3000/upload' method="POST" enctype="multipart/form-data">
-        <input type="file" name="file">
-        <input type="submit" value="Subir">
-    </form>
+    <input type="file" id="fileInput">
+    <div id="fileInfo"></div>
+    <img id="preview">
+
+    <script src="script.js"></script>
 </body>
 
 </html>
